@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.heading-2 {
+  color: blueviolet;
+}
+
+.card {
+  border: 1px solid black;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
