@@ -1,0 +1,20 @@
+ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px; 
+ }
+ 
+ li{
+     list-style: none;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: rgb(18, 1, 255);
+ }
+ 
+ .active{
+     color: red;
+     text-decoration: underline;
+     text-transform: uppercase;
+ }
