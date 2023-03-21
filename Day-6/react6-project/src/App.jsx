@@ -4,7 +4,6 @@ import "./App.css";
 import Detail from "./components/Detail"
 import Meal from "./components/Meal";
 import Navbar from "./components/Navbar";
-import Search from "./components/Search"
 
 const App = () => {
   return (
@@ -13,7 +12,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Meal />} />
         <Route path="/detail/:id" element={<Detail />} />
-        <Route path="/search/:name" element={<Search/>} />
       </Routes>
     </div>
   );

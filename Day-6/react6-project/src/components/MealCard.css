@@ -1,0 +1,20 @@
+.parent .icon {
+  transition: opacity ease 0.5s;
+  opacity: 0;
+  /* transition: box-shadow ease 0.5s;
+  box-shadow: 0; */
+}
+
+.parent:hover .icon {
+  opacity: 1;
+}
+
+.parent:hover .img-div {
+  box-shadow: inset 0px 0px 100px -10px rgba(0, 0, 0, 0.8);
+}
+
+.parent:hover .image {
+  opacity: 0.8;
+  position: relative;
+  z-index: -2;
+}
